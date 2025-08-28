@@ -1,0 +1,10 @@
+## WAP to input all sides of a triangle and check wheather triangle is valid or not.
+
+a = int(input("Enter first side:"))
+b = int(input("Enter second side:"))
+c = int(input("Enter third side:"))
+
+if( a+ b > c) or(a + c > b) or (b + c > a):
+    print(f"The triangle is valid")
+else:
+    print(f"The triangle is not valid")

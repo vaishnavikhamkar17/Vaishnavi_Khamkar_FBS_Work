@@ -1,0 +1,11 @@
+## WAp to calculate total salary of employee based on basic , da = 10% of basic , ta = 12% ,hra = 15% of basic.
+
+salary = int(input('Enter the salary:'))
+
+DA = salary * 0.10
+TA = salary * 0.12
+HRA = salary * 0.15
+
+Total_salary = salary + DA + TA + HRA
+
+print(f"Total salary of employee is:{Total_salary}")
